@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+   /*header*/
+.header{
+    min-width:1200px ;
+    border-bottom: 1px #919191 solid;
+    box-shadow: 2px 1px 2px #919191;
+}
+.logo{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.logo img{
+    float: left;
+}
+.right{
+    list-style: none;
+    float: right;
+    margin-top: 23px;
+    display: inline-block;
+}
+.right li{
+    display: inline-block;
+}
+.one{
+    font-size: 12px;
+    color: #8c8c8c;
+}
+.two a{
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+}
+.two a:hover{
+    color: red;
+}
+.three ul {
+    width: 120px;
+    height: 30px;
+    border: 1px darkgrey solid;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+}
+.three li:first-child{
+    vertical-align: -4px;
+}
+.three li:last-child{
+    vertical-align: 3px;
+}
+   /*main*/
+.main{
+    width: 1200px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.img{
+    float: left;
+    margin-left: 80px;
+}
+.login{
+    width: 330px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+.login p:nth-child(1){
+      float: left;
+      display: inline-block;
+}
+.login p:nth-child(2){
+    float: right;
+    display: inline-block;
+}
+.login p:nth-child(2) a{
+    text-decoration: none;
+}
+.login p:nth-child(2) a:hover{
+    color: red;
+}
+.ul{
+    list-style: none;
+}
+.ul li:nth-child(1){
+    width: 330px;
+    height: 50px;
+    border:1px darkgrey solid;
+    margin-top: 10px;
+}
+.login-1{
+    width: 330px;
+    float: right;
+    margin-right: 80px;
+}
+.img-1{
+    overflow: hidden;
+}
+.img-1 img{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.img-1 input{
+    float: right;
+    width: 270px;
+    height: 50px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+}
+.ul li:nth-child(2){
+    width: 330px;
+    height: 50px;
+    border:1px darkgrey solid;
+    margin-top: 10px;
+}
+.ul li:nth-child(3){
+    margin-top: 15px;
+}
+.ul li:nth-child(5) a{
+    text-decoration: none;
+    color: #8c8c8c;
+}
+.ul li:nth-child(5) a:hover{
+    color: red;
+}
+.zd{
+    overflow: hidden;
+}
+.zd a{
+    text-decoration: none;
+    color: #8c8c8c;
+    float: right;
+    font-size: 15px;
+}
+.zd a:hover{
+    color: red;
+}
+.zd input{
+    font-size: 15px;
+}
+.ul li:nth-child(4) input{
+    margin-top: 20px;
+    width: 330px;
+    height: 50px;
+    background: #ff3f3f;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+.ul li:nth-child(5){
+    font-size: 14px;
+    margin-top: 17px;
+}
+.ul1{
+    list-style: none;
+    width: 330px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.li1{
+    width: 26px;
+    height: 26px;
+    vertical-align: -8px;
+    display: inline-block;
+    background: url("../loginpage-img/l_1.png") no-repeat;
+}
+.li1:hover{
+    background: url("../loginpage-img/l_1_h.png") no-repeat;
+}
+.li2{
+    width: 26px;
+    height: 26px;
+    margin-left: 20px;
+    vertical-align: -8px;
+    display: inline-block;
+    background: url("../loginpage-img/l_2.png") no-repeat;
+}
+.li2:hover{
+    background: url("../loginpage-img/l_2_h.png") no-repeat;
+}
+.li3{
+    width: 26px;
+    height: 26px;
+    margin-left: 20px;
+    vertical-align: -8px;
+    display: inline-block;
+    background: url("../loginpage-img/l_3.png") no-repeat;
+}
+.li3:hover{
+    background: url("../loginpage-img/l_3_h.png") no-repeat;
+}
+.li4{
+    width: 26px;
+    height: 26px;
+    margin-left: 20px;
+    vertical-align: -8px;
+    display: inline-block;
+    background: url("../loginpage-img/l_4.png") no-repeat;
+}
+.li4:hover{
+    background: url("../loginpage-img/l_4_h.png") no-repeat;
+}
+.li5{
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 30px;
+}
+.li5 a{
+    text-decoration: none;
+    color: #8c8c8c;
+}
+.li5 a:hover{
+    color: red;
+}
+.li6{
+    width: 15px;
+    height: 10px;
+    text-align: center;
+    line-height: 3px;
+    border-radius: 3px;
+    border: 1px darkgrey solid;
+    display: inline-block;
+}
+  /*footer*/
+.footer{
+    width: 1200px;
+    margin: 50px auto;
+}
+.size-1{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
